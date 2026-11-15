@@ -1,0 +1,40 @@
+{
+  "name": "trae-daily-signin",
+  "version": "0.1.0",
+  "description": "Automate the daily check-in of TRAE desktop client to collect points, with a safe click strategy that never steals focus on Windows.",
+  "i18n": {
+    "display_name": {
+      "en": "TRAE Daily Check-in",
+      "zh-cn": "TRAE 每日签到"
+    },
+    "description": {
+      "en": "Open the TRAE desktop account menu and click the daily check-in button to collect points. Windows verified; macOS experimental; mobile clients have no check-in entry.",
+      "zh-cn": "打开 TRAE 桌面端账户菜单并点击每日签到按钮领取积分。Windows 已验证可用，macOS 实验性支持，手机端无签到入口。"
+    }
+  },
+  "author": {
+    "name": "person"
+  },
+  "license": "MIT",
+  "keywords": [
+    "trae",
+    "signin",
+    "check-in",
+    "points",
+    "desktop-automation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TRAE 每日签到",
+    "developerName": "person",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "composerIcon": "./assets/app-icon.svg",
+    "logo": "./assets/app-icon.svg",
+    "brandColor": "#0E7C66"
+  }
+}
